@@ -1,0 +1,23 @@
+{
+  "login:" : {
+    "emailInput" : "input[id='email']",
+    "passwordInput" : "input[id='password']",
+    "submitBtn" : "button"
+  },
+  "header" : {
+    "loginBtn" :"a[href='/login']",
+    "logoutBtn" :".ml-auto > :nth-child(3) > .nav-link"
+  },
+
+  "register" : {
+    "registerBtn" : ":nth-child(2) > .nav-link",
+    "firstName" :"#first-name",
+    "lastName" :"#last-name",
+    "emailInputReg" : "#email",
+    "passwordInputReg" : "#password",
+    "passwordConfim" : "#password-confirmation",
+    "accepted_tac" : ".form-check-input",
+    "submitBtnReg" :".btn"
+
+  }
+}
